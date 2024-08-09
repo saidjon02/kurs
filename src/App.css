@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  font-family: "nunito";
+  margin: 0;
+  outline: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header */
+.Header {
+  display: grid;
+  grid-template-columns: 202px 744px 180px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.263);
+}
+.container {
+  max-width: 1247px;
+  margin: auto;
+}
+.header-left {
+}
+.header-center {
+}
+.search {
+  padding: 20px 14px;
+  background-color: #f9f9f9;
+  color: #c0c0c0;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 15px;
+  border: 0;
+}
+.header-right {
+  display: flex;
+  gap: 15px;
+}
+.btn-orange {
+  border-radius: 10px;
+  border: 1px solid #fe5f00;
+  color: #fe5f00;
+  background-color: transparent;
+  padding: 14px 22px;
+  display: flex;
+
+  gap: 10px;
+}
+.filter-right {
+  display: flex;
+  background-color: #000000;
+  padding: 6px;
+}
+.filter-btn {
+  color: #fe5f00;
+  border: 0;
+}
+.filter-left {
+  background-color: #f1f1f1;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-btn2 {
+}
+.orange {
+}
