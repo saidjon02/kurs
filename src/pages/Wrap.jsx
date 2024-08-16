@@ -1,17 +1,18 @@
 import React from "react";
 import Filter from "../Components/Filter";
+import Home from "./Home";
 import Aside from "../Components/Aside";
-import Products from "../Components/Products";
-function Home() {
+
+function Wrap() {
   return (
     <>
       <Filter />
       <div className="wrap-row container">
         <Aside />
-        <Products />
+        <Home />
       </div>
     </>
   );
 }
 
-export default Home;
+export default Wrap;

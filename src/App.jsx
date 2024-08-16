@@ -1,17 +1,18 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
 import Header from "./Components/Header";
-import Filter from "./Components/Filter";
+import Home from "./pages/Home";
+import CardList from "./pages/CardList";
 function App() {
   return (
     <>
+      {/* <Home /> */}
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Filter />} />
           <Route path="/" element={<Home />} />
+          <Route path="/list/:id" element={<CardList />} />
         </Routes>
       </BrowserRouter>
     </>

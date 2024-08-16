@@ -8,7 +8,7 @@ function Filter() {
           <h2 className="filter-title fz35 mt20">Все пиццы</h2>
           <div className="filter-row df mt20">
             <div className="filter-left">
-              <button className="filter-btn">Все</button>
+              <button className="filter-btn activee">Все</button>
               <button className="filter-btn">Мясные</button>
               <button className="filter-btn">Острые</button>
               <button className="filter-btn">Сладкие</button>
@@ -21,7 +21,9 @@ function Filter() {
             <div className="filter-right">
               <button className="filter-btn2">
                 <img src={bottom} alt="" />
-                Сортировка: <span className="orange"> рейтингу</span>
+                <span>
+                  Сортировка: <span className="orange cursor"> рейтингу</span>
+                </span>
               </button>
             </div>
           </div>
