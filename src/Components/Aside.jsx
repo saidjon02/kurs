@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../Context/java";
 function Aside() {
   return (
     <div className="aside">
@@ -43,7 +43,37 @@ function Aside() {
         <div className="checks">
           <input type="checkbox" /> <p className="check-label">Томаты</p>
         </div>
-        <p className="view-all orange">+ Показать всё</p>
+        <ul id="myUL">
+          <li>
+            <p className="view-all orange">+ Показать всё 90 751 18 10</p>
+            <span onClick={() => setOpen(!open)} class="caret">
+              <p className="view-all orange">+ Показать всё 90 751 18 10</p>
+            </span>
+            <ul className={open ? "nasted active" : "nasted"}>
+              <ul class="nested">
+                <li>Black Tea</li>
+                <li>White Tea</li>
+                <li></li>
+              </ul>
+              <li></li>
+            </ul>
+          </li>
+        </ul>
+        <div className="view">
+          <div className="checks">
+            <input type="checkbox" /> <p className="check-label">Чеснок</p>
+          </div>
+          <div className="checks">
+            <input type="checkbox" />{" "}
+            <p className="check-label">Солённые огурчики</p>
+          </div>
+          <div className="checks">
+            <input type="checkbox" /> <p className="check-label">Красный лук</p>
+          </div>
+          <div className="checks">
+            <input type="checkbox" /> <p className="check-label">Томаты</p>
+          </div>
+        </div>
       </div>
       <div className="ae-bottom">
         <h2 className="ae-titles">Тип теста:</h2>
