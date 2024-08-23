@@ -7,3 +7,5 @@ for (i = 0; i < toggler.length; i++) {
     this.classList.toggle("caret-down");
   });
 }
+// git config credential.username "saidjon02"
+// git user.name "saidjon02"
