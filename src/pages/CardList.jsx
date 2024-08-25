@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import Fetch from "./Fetch";
 import img1 from "../Imgs/img (1).png";
 import img2 from "../Imgs/img (2).png";
 import img3 from "../Imgs/img (3).png";
 import img4 from "../Imgs/img (4).png";
+import { CartContext } from "../Context/Context";
 function CardList() {
   const { id } = useParams();
   const { data } = Fetch("http://localhost:8000/items/" + id);
+  const globalState = useContext(CartContext);
+  const dispatch = globalState.dispatch;
+  console.log(globalState);
   return (
     <div className="cardlist container">
       {data && (
@@ -51,7 +55,10 @@ function CardList() {
                   <p className="cardl-card-text">79 ₽</p>
                 </div>
               </div>
-              <button className="btn-orange2">
+              <button
+                className="btn-orange2"
+                onClick={() => dispatch({ type: "ADD", payload: data })}
+              >
                 Добавить в корзину за {data.price}₽
               </button>
             </div>

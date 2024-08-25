@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import Home from "./pages/Home";
 import CardList from "./pages/CardList";
+import Cart from "./pages/Cart";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="cart" element={<Cart />} />
           <Route path="/list/:id" element={<CardList />} />
         </Routes>
       </BrowserRouter>
