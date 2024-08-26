@@ -43,22 +43,8 @@ function Aside() {
         <div className="checks">
           <input type="checkbox" /> <p className="check-label">Томаты</p>
         </div>
-        <ul id="myUL">
-          <li>
-            <p className="view-all orange">+ Показать всё 90 751 18 10</p>
-            <span onClick={() => setOpen(!open)} class="caret">
-              <p className="view-all orange">+ Показать всё 90 751 18 10</p>
-            </span>
-            <ul className={open ? "nasted active" : "nasted"}>
-              <ul class="nested">
-                <li>Black Tea</li>
-                <li>White Tea</li>
-                <li></li>
-              </ul>
-              <li></li>
-            </ul>
-          </li>
-        </ul>
+        <p className="view-all orange">+ Показать всё </p>
+
         <div className="view">
           <div className="checks">
             <input type="checkbox" /> <p className="check-label">Чеснок</p>

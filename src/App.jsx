@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import Home from "./pages/Home";
 import CardList from "./pages/CardList";
 import Cart from "./pages/Cart";
+import "boxicons";
 function App() {
   return (
     <>

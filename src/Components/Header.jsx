@@ -10,7 +10,9 @@ function Header() {
   return (
     <div className="Header container pt40 pb40">
       <div className="header-left">
-        <img src={logo} className="logo" alt="" />
+        <Link to={"/"}>
+          <img src={logo} className="logo" alt="" />
+        </Link>
       </div>
       <div className="header-center">
         <input type="text" className="search" placeholder="Поиск пиццы..." />

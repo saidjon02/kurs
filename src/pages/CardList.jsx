@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Fetch from "./Fetch";
 import img1 from "../Imgs/img (1).png";
 import img2 from "../Imgs/img (2).png";
@@ -55,12 +55,14 @@ function CardList() {
                   <p className="cardl-card-text">79 ₽</p>
                 </div>
               </div>
-              <button
-                className="btn-orange2"
-                onClick={() => dispatch({ type: "ADD", payload: data })}
-              >
-                Добавить в корзину за {data.price}₽
-              </button>
+              <Link to={"/cart"}>
+                <button
+                  className="btn-orange2"
+                  onClick={() => dispatch({ type: "ADD", payload: data })}
+                >
+                  Добавить в корзину за {data.price}₽
+                </button>
+              </Link>
             </div>
           </div>
         </div>

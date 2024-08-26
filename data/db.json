@@ -4,107 +4,125 @@
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
       "title": "Сырный цыпленок",
       "price": 395,
+      "quantity": 1,
       "id": 1
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(2).png",
       "title": "Диабло",
+      "quantity": 1,
       "price": 449,
       "id": 2
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(3).png",
       "title": "Чизбургер-пицца",
+      "quantity": 1,
       "price": 399,
       "id": 3
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
       "title": "Сырный цыпленок",
+      "quantity": 1,
       "price": 395,
       "id": 4
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(2).png",
       "title": "Диабло",
+      "quantity": 1,
       "price": 449,
       "id": 5
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(3).png",
       "title": "Чизбургер-пицца",
+      "quantity": 1,
       "price": 399,
       "id": 6
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
       "title": "Сырный цыпленок",
+      "quantity": 1,
       "price": 395,
       "id": 1
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(2).png",
       "title": "Диабло",
+      "quantity": 1,
       "price": 449,
       "id": 2
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(3).png",
       "title": "Чизбургер-пицца",
+      "quantity": 1,
       "price": 399,
       "id": 3
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
       "title": "Сырный цыпленок",
+      "quantity": 1,
       "price": 395,
       "id": 4
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(2).png",
       "title": "Диабло",
+      "quantity": 1,
       "price": 449,
       "id": 5
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(3).png",
       "title": "Чизбургер-пицца",
+      "quantity": 1,
       "price": 399,
       "id": 6
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
       "title": "Сырный цыпленок",
+      "quantity": 1,
       "price": 395,
       "id": 1
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(2).png",
       "title": "Диабло",
+      "quantity": 1,
       "price": 449,
       "id": 2
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(3).png",
       "title": "Чизбургер-пицца",
+      "quantity": 1,
       "price": 399,
       "id": 3
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
       "title": "Сырный цыпленок",
+      "quantity": 1,
       "price": 395,
       "id": 4
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(2).png",
       "title": "Диабло",
+      "quantity": 1,
       "price": 449,
       "id": 5
     },
     {
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(3).png",
       "title": "Чизбургер-пицца",
+      "quantity": 1,
       "price": 399,
       "id": 6
     }

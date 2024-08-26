@@ -15,7 +15,6 @@ function Products() {
               .fill(0)
               .map((_, index) => <SkeletonCard key={index} />)
           : data.map((e) => {
-              e.quantity = 1;
               return (
                 <Link to={`/list/${e.id}`}>
                   <div className="pizza-card" key={e.id}>

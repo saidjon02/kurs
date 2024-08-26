@@ -517,3 +517,12 @@ ul,
   display: block;
 }
 /* bardasheva */
+.bx-left-arrow-alt {
+  transform: scale(1.4);
+  margin-right: 15px;
+}
+.empty {
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+}
