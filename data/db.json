@@ -4,6 +4,7 @@
       "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
       "title": "Сырный цыпленок",
       "price": 395,
+      "text": "Классическая, острая, сырная, насыщенная, мясная.",
       "quantity": 1,
       "id": 1
     },
@@ -12,6 +13,7 @@
       "title": "Диабло",
       "quantity": 1,
       "price": 449,
+      "text": "Свежие томаты, моцарелла, базилик, простая.",
       "id": 2
     },
     {
@@ -19,6 +21,7 @@
       "title": "Чизбургер-пицца",
       "quantity": 1,
       "price": 399,
+      "text": "Сладкая, дымная, кисло-сладкая, пикантная, нежная.",
       "id": 3
     },
     {
@@ -26,6 +29,7 @@
       "title": "Сырный цыпленок",
       "quantity": 1,
       "price": 395,
+      "text": "Ананас, ветчина, сыр, сладкая, соленая.",
       "id": 4
     },
     {
@@ -33,6 +37,7 @@
       "title": "Диабло",
       "quantity": 1,
       "price": 449,
+      "text": "Перец, лук, грибы, полезная.",
       "id": 5
     },
     {
@@ -40,90 +45,7 @@
       "title": "Чизбургер-пицца",
       "quantity": 1,
       "price": 399,
-      "id": 6
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
-      "title": "Сырный цыпленок",
-      "quantity": 1,
-      "price": 395,
-      "id": 1
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(2).png",
-      "title": "Диабло",
-      "quantity": 1,
-      "price": 449,
-      "id": 2
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(3).png",
-      "title": "Чизбургер-пицца",
-      "quantity": 1,
-      "price": 399,
-      "id": 3
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
-      "title": "Сырный цыпленок",
-      "quantity": 1,
-      "price": 395,
-      "id": 4
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(2).png",
-      "title": "Диабло",
-      "quantity": 1,
-      "price": 449,
-      "id": 5
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(3).png",
-      "title": "Чизбургер-пицца",
-      "quantity": 1,
-      "price": 399,
-      "id": 6
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
-      "title": "Сырный цыпленок",
-      "quantity": 1,
-      "price": 395,
-      "id": 1
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(2).png",
-      "title": "Диабло",
-      "quantity": 1,
-      "price": 449,
-      "id": 2
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(3).png",
-      "title": "Чизбургер-пицца",
-      "quantity": 1,
-      "price": 399,
-      "id": 3
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(1).png",
-      "title": "Сырный цыпленок",
-      "quantity": 1,
-      "price": 395,
-      "id": 4
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(2).png",
-      "title": "Диабло",
-      "quantity": 1,
-      "price": 449,
-      "id": 5
-    },
-    {
-      "img": "https://img-folder.netlify.app/imgs2/pizzas%20(3).png",
-      "title": "Чизбургер-пицца",
-      "quantity": 1,
-      "price": 399,
+      "text": " Моцарелла, чеддер, пармезан, сливочная.",
       "id": 6
     }
   ]

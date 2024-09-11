@@ -233,6 +233,10 @@
   gap: 12px;
   margin-top: 9px;
 }
+.home-row {
+  display: grid;
+  grid-template-columns: 314px 314px 314px;
+}
 .check-label {
   color: rgb(0, 0, 0);
   font-size: 16px;
