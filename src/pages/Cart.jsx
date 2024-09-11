@@ -12,7 +12,7 @@ function Cart() {
     return total + item.price * item.quantity;
   }, 0);
   return (
-    <div>
+    <div className="container">
       {state.length > 0 ? (
         state &&
         state.map((item, index) => {

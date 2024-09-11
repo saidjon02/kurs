@@ -526,3 +526,23 @@ ul,
   text-align: center;
   margin-top: 150px;
 }
+.cart-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-left img {
+  width: 100px;
+}
+.cart-center {
+}
+.cart-btns {
+}
+.cart-quan {
+}
+.cart-right {
+}
+.cart-price {
+}
+.x {
+}

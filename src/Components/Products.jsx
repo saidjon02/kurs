@@ -3,7 +3,6 @@ import Fetch from "../pages/Fetch";
 import SkeletonCard from "../Components/Loading";
 import { Link } from "react-router-dom";
 import "../App.css";
-import { CartContext } from "../Context/Context";
 function Products() {
   const { data } = Fetch("http://localhost:8000/items");
 
